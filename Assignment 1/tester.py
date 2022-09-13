@@ -1,27 +1,12 @@
-# Fix any syntax errors you can spot and fulfill any other requests
+# instructions: print out "Hello World!"
+# create a variable to hold your favorite color, then print out that variable with a string beforehand that says "My favorite color is: "
+# create a variable to hold your birthday (NO SLASHES, JUST THE DIGITS) and then print out "My birthday is: " with the variable
+
+
 def main():
-    print("hello")
-    print(3)
-    print(10 + 10)
-
-    # insert your name in this string below
-    print("My name is Alex ")
-    # this is printing a string and not an integer. how do we fix it?
-    print("50")
-    # make sure this one prints out the sum
-    print(2 + 2)
-
-    # insert your name into this variable
-    name = "Alex"
-    print("Hello, my name is ", name)
-
-    # insert your best friend's name here and have it print out
-    name2 = "Alex"
-    print("Hello, my best friend's name is ", name)
-
-    # put your age here
-    age = 18
-    print("I'm " + name + " and i'm " + str(age) + " years old")
-
-
-main()
+    def main():
+        print("Hello World")
+        My_favorite_color_is = "red"
+        print("My_favorite_color_is", "red")
+        My_birthday_is = "12252003"
+        print("My_birthday_is", "12252003")

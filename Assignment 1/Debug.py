@@ -8,9 +8,9 @@ def main():
 
 
     #insert your name in this string below
-    print("My name is Alex ")
+    print("My name is Alex")
     #this is printing a string and not an integer. how do we fix it?
-    print("50")
+    print(50)
     #make sure this one prints out the sum
     print(2 + 2)
 
@@ -19,8 +19,8 @@ def main():
     print("Hello, my name is ", name)
 
     #insert your best friend's name here and have it print out
-    name2 = "Alex"
-    print("Hello, my best friend's name is ", name)
+    name2 = "ryan"
+    print("Hello, my best friend's name is ", name2)
     
     #put your age here
     age = 18
