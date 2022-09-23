@@ -1,11 +1,6 @@
-favfood= ["pizza", "Chicken", "pasta"]
-print(favfood)
-favfood[0] = "stake"
-print(favfood)
-favfood.insert(2,"bread")
-print(favfood)
-favfood.append("more stake")
-print(favfood)
-favfood.remove("bread")
-print(favfood)
-
+if your older then 21
+age = int(input("are you older then 21"))
+print(age)
+var = 21
+if age >= 21:
+    print("good boy")
