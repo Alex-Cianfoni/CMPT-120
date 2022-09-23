@@ -7,11 +7,15 @@ def main():
     '''
 
 
-if your older then 21
 age = int(input("are you older then 21"))
 print(age)
-var = 21
 if age >= 21:
     print("good boy")
+if age >21 and age < 25:
+    print("you can buy alcohol and nicotine products, but cannot rent a car")
+if age >18 and age < 21:
+    print("you can only buy nicotine products in some states")
+if age <18:
+    print("you can only purchase candy cigarettes and sody pops")
 
 main()

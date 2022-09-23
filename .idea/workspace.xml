@@ -7,7 +7,7 @@
     <list default="true" id="803ba4cd-2e60-4c8e-b8ab-b0b67601dd8e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment 1/tester.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/tester.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 2.5/double_int_list_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 2.5/double_int_list_practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 2.5/Debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 2.5/Debug.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment 2.5/if_else_sign_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 2.5/if_else_sign_practice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,6 +105,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="if_else_sign_practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CMPT-110" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment 2.5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment 2.5/if_else_sign_practice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tester" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="CMPT-110" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,6 +149,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.if_else_sign_practice" />
         <item itemvalue="Python.double_int_list_practice" />
         <item itemvalue="Python.if_else_practice" />
         <item itemvalue="Python.Debug" />
