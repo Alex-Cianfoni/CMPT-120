@@ -8,11 +8,10 @@ def main():
         
     #can you google and find what function you should use to check if it's numeric (an int?)?
     intInput = input("enter an int")
-    if intInput.?:
-        print("int!")
+    if intInput.isnumeric:
+        print("youhaveint")
     else:
         print("not int :(")
-    
     #what about if it's both letters and numbers?
     alphIntInput = input("Enter letters and numbers")
     if alphIntInput.?:
