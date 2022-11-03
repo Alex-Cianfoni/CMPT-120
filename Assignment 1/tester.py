@@ -1,6 +1,16 @@
+class Dog():
+    def __init__(self, name, age,weight):
+        self.name = name
+        self.age = age
+        self.weight = weight
 
-intInput = input("Enter an int (but enter a string to see the error)")
-if intInput.isnumeric():
-        print("youhaveint")
-else:
-        print("not int you bum :(")
+
+
+def main():
+    dog3 = Dog("jake", 4, 57)
+    dog4 = Dog("Reberto", 5, 120)
+    print(dog4.name)
+    
+
+
+main()
