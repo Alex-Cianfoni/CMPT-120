@@ -36,6 +36,8 @@ class student:
         def honors(self):
             if self.gpa > 3.5:
                 print("your good for honors")
+            else:
+                print("loser")
         def lunch(self):
             var = randint(100, 999)
             if self.studentid == var:
