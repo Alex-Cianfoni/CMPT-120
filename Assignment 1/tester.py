@@ -1,16 +1,18 @@
-class Dog():
-    def __init__(self, name, age,weight):
+class student:
+    def __init__(self, name, studentid, year, major, gpa):
         self.name = name
-        self.age = age
-        self.weight = weight
-
+        self.studentid = studentid
+        self.year = year
+        self.major = major
+        self.gpa = gpa
 
 
 def main():
-    dog3 = Dog("jake", 4, 57)
-    dog4 = Dog("Reberto", 5, 120)
-    print(dog4.name)
-    
+    student1 = student("jake", 2028323, 2026, "cyber", 2.3)
+    student2 = student("Reberto", 5213232, 2026, "cyber", 1.7)
+    student3 = student("tyler", 232323, 2026, "cyber", 2.8)
+    print(student2.name)
+    print(student1.gpa)
 
 
 main()

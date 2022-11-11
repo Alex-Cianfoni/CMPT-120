@@ -10,23 +10,27 @@ class Employee:
         self.department = department
         
 class Cake:
-    #can you fill out the rest of this for me? im dumb
-    #the cake needs to have the cake flavor and cake frosting stored
-        
+   def __init__(self, flavor, frosting):
+        self.flavor = flavor
+        self.frosting = frosting
+
+
 def main():
     #fill this one out with a dog's name and age.. can be your dog, friend's dog, etc
-    newDog = Dog(? , ?)
-    print(dog1.name, dog1.age)
+    newDog = Dog("sandy",13)
+    print(newDog.name, newDog.age)
     
     #and what about a new employee
-    newEmployee =
+    newEmployee =Employee("tyler",2313213,23)
     #how would we print out each of the variables from newEmployee?
-    print()
+    print(newEmployee.name,newEmployee.idNumber,newEmployee.department)
     
     #now create and print out a cake you make
-    
-    
+    newCake= Cake("choc","can")
+    print(newCake.flavor,newCake.frosting)
+
     
     #and now create another cake and print it out
-
+    newCake1= Cake("choc","marker")
+    print(newCake1.flavor,newCake1.frosting)
 main()
